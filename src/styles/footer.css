@@ -1,0 +1,46 @@
+.premium-test {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to right, #ae2896, #509bf5);
+    padding: 15px 40px;
+}
+
+.premium-test .premium-test-content {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+.premium-test-content .premium-test-title {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 10px;
+    font-size: 12px;
+    font-family: "DM sans", sans-serif;
+}
+
+.premium-test-content .premium-test-subtitle {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "DM sans", sans-serif;
+}
+
+.premium-test .subscribe-button .button {
+    background-color: #fff;
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 14px 30px;
+    border: 0px;
+    border-radius: 40px;
+    cursor: pointer;
+    flex-shrink: 0;
+}

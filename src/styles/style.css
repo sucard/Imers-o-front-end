@@ -1,5 +1,6 @@
 body {
-    background-color: #000
+    background-color: #000;
+    font-family: var(--font-dm-sans);
 }
 
 h1 {
@@ -77,7 +78,6 @@ h1 {
     text-decoration: none;
     font-weight: 600;
     font-size: 14px;
-    font-family: "DM sans", sans-serif;
 }
 
 .sidebar nav ul li a .fa {
@@ -110,7 +110,6 @@ h1 {
     border: 0px;
     font-size: 14px;
     font-weight: 700;
-    font-family: "DM sans", sans-serif;
     text-align: center;
     text-decoration: none;
     text-transform: none;
@@ -150,7 +149,6 @@ h1 {
 .section-playlist-content .text {
     padding-bottom: 16px;
     color: #fff;
-    font-family: "DM sans", sans-serif;
 }
 
 .section-playlist-content .title {
@@ -171,7 +169,6 @@ h1 {
     border-radius: 20px;
     font-size: 14px;
     font-weight: 700;
-    font-family: "DM sans", sans-serif;
     text-decoration: none;
     text-transform: none;
     padding: 10px;
@@ -204,7 +201,8 @@ h1 {
     font-weight: bold;
     cursor: pointer;
     width: 170px;
-    margin: 8px;
+    margin-bottom: 10px;
     padding: 8px;
     border-radius: 20px;
 }
+
