@@ -1,6 +1,15 @@
 body {
     background-color: #000;
     font-family: var(--font-dm-sans);
+    
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #121212;
 }
 
 h1 {
@@ -24,7 +33,7 @@ h1 {
     border-radius: 8px;
     padding: 12px 14px 14px 12px;
     overflow: hidden;
-    transition: all 0.3s;
+    transition: all 0.5s;
 }
 
 .sidebar_navigation .logo {
@@ -39,7 +48,7 @@ h1 {
 .menu-container {
     overflow: hidden;
     width: 0;
-    transition: width 0.3s;
+    transition: width 0.5s;
 }
 
 .sidebar_navigation:hover .logo {
@@ -148,24 +157,24 @@ h1 {
 
 .section-playlist-content .text {
     padding-bottom: 16px;
-    color: #fff;
+    color: var(--text-base-white)
 }
 
 .section-playlist-content .title {
     font-weight: 700;
-    font-size: 20px;
+    font-size: 14px;
 }
 
 .section-playlist-content .subtitle {
     font-weight: 500;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .section-playlist-content .section-playlist__button {
     display: flex;
     justify-content: center;
-    background-color: #fff;
-    color: #000;
+    background-color: var(--text-base-white);
+    color: var(--text-base-dark);
     border-radius: 20px;
     font-size: 14px;
     font-weight: 700;
@@ -175,6 +184,56 @@ h1 {
     margin-top: 12px;
     border: 0px;
     width: 113px;   
+}
+
+.section-podcasts {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: #242424;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 8px 0px;
+    padding: 16px 20px;
+    border-radius: 10px;
+}
+
+.section-podcasts .section-podcasts-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-podcasts-content .text {
+    padding-bottom: 16px;
+    color: var(--text-base-white);
+}
+
+.section-podcasts-content .title {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.section-podcasts-content .subtitle {
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.section-podcasts-content .section__podcasts__button {
+    display: flex;
+    justify-content: center;
+    background-color: var(--text-base-white);
+    color: var(--text-base-dark);
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: none;
+    padding: 10px;
+    margin-top: 12px;
+    border: 0;
+    width: 150px;
 }
 
 .sidebar .cookies {
@@ -206,3 +265,7 @@ h1 {
     border-radius: 20px;
 }
 
+.languages .languages__button:hover {
+    border: #fff solid 1px;
+
+}

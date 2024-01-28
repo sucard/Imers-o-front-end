@@ -1,0 +1,15 @@
+@media screen and (max-width: 1015px) {
+        .offer__list-item {
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .header-navigation {
+           max-width: 657px;
+
+        }
+
+        .playlist-container {
+            max-width: 657px;
+        }
+}
+

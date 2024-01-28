@@ -5,4 +5,12 @@
     /*COLOR*/
     --bg-icon: #131313;
     --bg-arrow-color: rgba(0, 0, 0, 0.7);
+    --text-base-white: #fff;
+    --text-base-dark: #000;
+
+    --column-count: 5;
+
+    @media screen and (min-width: 768px) and (max-width: 1274px) {
+    }
+    
 }

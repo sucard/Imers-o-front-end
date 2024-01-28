@@ -1,0 +1,88 @@
+{
+    "artists": [
+        {
+            "id": 1,
+            "name": "Jorge Ben Jor",
+            "genre": "MPB",
+            "urlImg": "https://i.scdn.co/image/8de927ae02c5ecd038c643a8b1ea8fbe63bb8c85"
+        },
+        {
+            "id": 2,
+            "name": "Tyler The Creator",
+            "genre": "Rap",
+            "urlImg": "https://i.scdn.co/image/ab6772690000dd222faebefe671f93297b809774"
+        },
+        {
+            "id": 3,
+            "name": "Brutalismus 3000",
+            "genre": "Nu-gabber",
+            "urlImg": "https://i.scdn.co/image/ab67706c0000da84fb821da6ec5dcb12603793aa"
+        },
+        {
+            "id": 4,
+            "name": "Kendrick Lamar",
+            "genre": "Rap",
+            "urlImg": "https://i.scdn.co/image/ab67616100005174437b9e2a82505b3d93ff1022"
+        },
+        {
+            "id": 5,
+            "name": "Jorge Aragão",
+            "genre": "Samba",
+            "urlImg": "https://i.scdn.co/image/ab676161000051740e1e6c54dfe4890082bf6b28"
+        },
+        {
+            "id": 7,
+            "name": "Bezerra da Silva",
+            "genre": "Pagode",
+            "urlImg": "https://i.scdn.co/image/ab67616d00001e02f127e1f63ea529e8c3fecef8"
+        },
+        {
+            "id": 8,
+            "name": "Rammstein",
+            "genre": "Metal Industrial",
+            "urlImg": "https://i.scdn.co/image/ab6761610000517432845b1556f9dbdfe8ee6575"
+        },
+        {
+            "id": 9,
+            "name": "Led Zeppelin",
+            "genre": "Rock",
+            "urlImg": "https://i.scdn.co/image/b0248a44865493e6a03832aa89854ada16ff07a8"
+        },
+        {
+            "id": 10,
+            "name": "Dj Dayeh",
+            "genre": "Funk",
+            "urlImg": "https://i.scdn.co/image/ab6761610000517422d67861313de13f2a6e22d4"
+        },
+        {
+            "id": 11,
+            "name": "Zizi2x",
+            "genre": "Trap",
+            "urlImg": "https://i.scdn.co/image/ab6761610000517491339a0a4e28cfe522aad4b2"
+        },
+        {
+            "id": 12,
+            "name": "Racionais",
+            "genre": "Rap",
+            "urlImg": "https://i.scdn.co/image/ab6761610000517443a0d1ae0af71095fcb26726"
+        },
+        {
+            "id": 13,
+            "name": "Black Sabbath",
+            "genre": "Heavy-Metal",
+            "urlImg": "https://i.scdn.co/image/ab676161000051744870cd833ebe1092601820c3"
+        },
+        {
+            "id": 14,
+            "name": "Sabotage",
+            "genre": "Rap",
+            "urlImg": "https://i.scdn.co/image/ab676161000051746bb7ee1ef28def57fc91eda7"
+        },
+        {
+            "id": 15,
+            "name": "Siouxsie and the Banshees",
+            "genre": "Gotico",
+            "urlImg": "https://i.scdn.co/image/f9583d2a331faaba5174ef195f1d46d1c9639af9"
+        }
+    ]
+}
